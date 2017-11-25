@@ -26,7 +26,7 @@ RUN \
    \
    && apt-get update \
    && COMMENT "Install required packages" \
-   && apt-get install -qy --no-install-recommends \
+   && apt-get install -qy \
       libreoffice-base \
    \
    && COMMENT "Install convenience packages" \
